@@ -35,8 +35,8 @@ public class Kopek extends Hayvan{
     public String toString() {
         return "Ad: " + getAd() + "\n" +
                "Cins: " + getKopekCins() + "\n" +
-               "Ağırlık: " + getAgirlik() + "\n" +
+               "Ağırlık: " + getAgirlik() + " kg" + "\n" +
                "Uzunluk: " + getUzunluk() + "\n" +
-               "Kuyruk Uzunluğu: " +getKuyrukUzunlugu() + "cm";
+               "Kuyruk Uzunluğu: " +getKuyrukUzunlugu() + " cm";
     }
 }
