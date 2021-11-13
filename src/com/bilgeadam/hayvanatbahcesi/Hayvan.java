@@ -1,9 +1,8 @@
 package com.bilgeadam.hayvanatbahcesi;
 
-// Encapsulation = Information Hiding = Bilgi Gizleme
-// değişkenler private olur get-set methotlarıyla erişilir.
-
-public class Hayvan {
+// Hayvan classının objesinin oluşturulmasını istemiyorum
+// abstract class yapacağız.
+public abstract class Hayvan {
 
     private String ad;
     private double agirlik;
@@ -16,6 +15,8 @@ public class Hayvan {
         uzunluk = 0;
     }
 
+    // Encapsulation = Information Hiding = Bilgi Gizleme
+    // değişkenler private olur get-set methotlarıyla erişilir.
     public String getAd() {
         return ad;
     }
