@@ -9,6 +9,13 @@ public class HayvanTest {
         Hayvan h1 = new Hayvan();
         h1.sesCikar();
 
-    }
+        // Ağırlık Getir
+        System.out.println(h1.getAgirlik());
 
+        // Ağırlık Değiştir
+        h1.setAgirlik(20);
+
+        // Değiştirilmiş Ağırlık Getir
+        System.out.println(h1.getAgirlik());
+    }
 }
