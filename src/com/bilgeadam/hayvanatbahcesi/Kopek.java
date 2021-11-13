@@ -6,6 +6,7 @@ package com.bilgeadam.hayvanatbahcesi;
 public class Kopek extends Hayvan{
 
     private String kopekCins;
+    private double kuyrukUzunlugu;
 
     public String getKopekCins() {
         return kopekCins;
@@ -13,6 +14,14 @@ public class Kopek extends Hayvan{
 
     public void setKopekCins(String kopekCins) {
         this.kopekCins = kopekCins;
+    }
+
+    public double getKuyrukUzunlugu() {
+        return kuyrukUzunlugu;
+    }
+
+    public void setKuyrukUzunlugu(double kuyrukUzunlugu) {
+        this.kuyrukUzunlugu = kuyrukUzunlugu;
     }
 
     //Methot Overriding
@@ -27,6 +36,7 @@ public class Kopek extends Hayvan{
         return "Ad: " + getAd() + "\n" +
                "Cins: " + getKopekCins() + "\n" +
                "Ağırlık: " + getAgirlik() + "\n" +
-               "Uzunluk: " + getUzunluk();
+               "Uzunluk: " + getUzunluk() + "\n" +
+               "Kuyruk Uzunluğu: " +getKuyrukUzunlugu() + "cm";
     }
 }
