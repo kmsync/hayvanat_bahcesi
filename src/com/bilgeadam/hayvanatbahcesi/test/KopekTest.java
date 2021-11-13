@@ -18,6 +18,7 @@ public class KopekTest {
         // Ağırlık ve Uzunluk Değiştir
         kopek1.setAgirlik(60);
         kopek1.setUzunluk(1.5);
+        kopek1.setKuyrukUzunlugu(30);
 
         // Önceki satırda ağırlık değiştirildiği için
         // bu satırdan sonra değiştirilmiş ağırlığı getirir.
